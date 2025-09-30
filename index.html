@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This site was created as an exercise in HTML and CSS application - frontendmentor"
+    />
+    <title>Khettabi Soufiane | Results summary component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <!-- Render all elements normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Main template css file -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main aria-label="results-summary">
+      <section class="result" aria-labelledby="result-title">
+        <h2 id="result-title">Your Result</h2>
+        <div class="counter" aria-label="Score">
+          <span>76</span>
+          <span>of 100</span>
+        </div>
+        <h1>Great</h1>
+        <p>
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </section>
+      <section class="summary" aria-labelledby="summary-title">
+        <h2 id="summary-title">Summary</h2>
+        <ul class="summary-content">
+          <li class="box reaction">
+            <div class="icon">
+              <img src="assets/images/icon-reaction.svg" alt="Reaction icon" />
+              <h3>Reaction</h3>
+            </div>
+            <div class="number"><span>80</span> <span>/ 100</span></div>
+          </li>
+          <li class="box memory">
+            <div class="icon">
+              <img src="assets/images/icon-memory.svg" alt="Memory icon" />
+              <h3>Memory</h3>
+            </div>
+            <div class="number"><span>92</span> <span>/ 100</span></div>
+          </li>
+          <li class="box verbal">
+            <div class="icon">
+              <img src="assets/images/icon-verbal.svg" alt="Verbal icon" />
+              <h3>Verbal</h3>
+            </div>
+            <div class="number"><span>61</span> <span>/ 100</span></div>
+          </li>
+          <li class="box visual">
+            <div class="icon">
+              <img src="assets/images/icon-visual.svg" alt="Visual icon" />
+              <h3>Visual</h3>
+            </div>
+            <div class="number"><span>73</span> <span>/ 100</span></div>
+          </li>
+        </ul>
+        <button type="button" class="continue-btn">Continue</button>
+      </section>
+    </main>
+  </body>
+</html>
