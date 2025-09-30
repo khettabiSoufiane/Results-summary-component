@@ -6,6 +6,7 @@ This project is based on the [Frontend Mentor challenge](https://www.frontendmen
 ---
 
 ## 🚀 Features
+
 - Responsive design (desktop & mobile)
 - Clean semantic HTML structure
 - Accessible (keyboard & screen-reader friendly)
@@ -15,6 +16,7 @@ This project is based on the [Frontend Mentor challenge](https://www.frontendmen
 ---
 
 ## 🛠️ Built With
+
 - HTML5
 - CSS3 (Flexbox, variables, gradients)
 - Google Fonts (Hanken Grotesk)
@@ -22,9 +24,11 @@ This project is based on the [Frontend Mentor challenge](https://www.frontendmen
 ---
 
 ## 📸 Preview
+
 ### Desktop
+
 ![Desktop Preview](./design/desktop-design.jpg)
 
 ### Mobile
-![Mobile Preview](./design/mobile-design.jpg)
 
+![Mobile Preview](./design/mobile-design.jpg)

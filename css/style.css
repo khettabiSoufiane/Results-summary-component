@@ -2,13 +2,13 @@
 :root {
   /* Primary */
   --Light-red: hsl(0, 100%, 67%);
-  --Light-red-a: hsla(0, 100%, 67%, 0.06);
+  --Light-red-a: hsla(0, 100%, 67%, 0.04);
   --Orangey-yellow: hsl(39, 100%, 56%);
-  --Orangey-yellow-a: hsla(39, 100%, 56%, 0.06);
+  --Orangey-yellow-a: hsla(39, 100%, 56%, 0.04);
   --Green-teal: hsl(166, 100%, 37%);
-  --Green-teal-a: hsla(166, 100%, 37%, 0.06);
+  --Green-teal-a: hsla(166, 100%, 37%, 0.04);
   --Cobalt-blue: hsl(234, 85%, 45%);
-  --Cobalt-blue-a: hsla(234, 85%, 45%, 0.06);
+  --Cobalt-blue-a: hsla(234, 85%, 45%, 0.04);
 
   /* Gradients */
   /* background */
@@ -84,7 +84,7 @@ main {
 }
 @media (min-width: 768px) {
   main {
-    width: 80%;
+    width: 50%;
     flex-direction: row;
     position: absolute;
     top: 50%;
